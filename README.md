@@ -23,3 +23,9 @@
 ## Function
 - *args : list of parameter when pass to Function
 - **kwargs:  return a dictionary  
+- map: use match between list argument with parameter of function. Ex: map(square, my_nums) -- square is function, my_nums is list number
+- filter: use filter element follow condition. Ex: filter(condition,list)
+- lamda parameter:return. Ex: lamda num:num%2==0
+- Scope:
+  * use 'global' in def to get value of global variable (re-assignment)
+  * code clearly: x = function(x) when re-assignment variable; def function(x): #code -> return x
