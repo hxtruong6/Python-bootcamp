@@ -39,4 +39,5 @@
   * __str__(self): call str(name class) to describe what this class is.
   * __len__(self): return length of class (anything you want)
   * __del__(self) -- del class: use to delete from memory of computer
-  
+## Modules and Packages
+- if __name__ == "__main__": check if this file .py is run directly
