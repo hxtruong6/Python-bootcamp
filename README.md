@@ -41,3 +41,4 @@
   * __del__(self) -- del class: use to delete from memory of computer
 ## Modules and Packages
 - if __name__ == "__main__": check if this file .py is run directly
+## Unit Test
