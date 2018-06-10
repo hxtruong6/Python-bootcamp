@@ -12,5 +12,5 @@ class TestCap(unittest.TestCase):
         result = cap.cap_text(text)
         self.assertEqual(result, 'Two Words')
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
