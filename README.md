@@ -42,3 +42,59 @@
 ## Modules and Packages
 - if __name__ == "__main__": check if this file .py is run directly
 ## Unit Test
+## Map(), reduce(), filter()
+### Reduce()
+- from functools import reduce
+### Zip()
+- zip() makes an iterator that aggregates elements from each of the iterables.
+- Returns an iterator of tuples, where the i-th tuple contains the i-th element from each of the argument sequences or iterables. The iterator stops when the shortest input iterable is exhausted. With a single iterable argument, it returns an iterator of 1-tuples. With no arguments, it returns an empty iterator.
+- zip() is equivalent to:
+```
+def zip(*iterables):
+    # zip('ABCD', 'xy') --> Ax By
+    sentinel = object()
+    iterators = [iter(it) for it in iterables]
+    while iterators:
+        result = []
+        for it in iterators:
+            elem = next(it, sentinel)
+            if elem is sentinel:
+                return
+            result.append(elem)
+        yield tuple(result)
+```
+- zip() should only be used with unequal length inputs when you don’t care about trailing, unmatched values from the longer iterables.
+### Enumerate()
+- In this lecture we will learn about an extremely useful built-in function: enumerate(). Enumerate allows you to keep a count as you iterate through an object. It does this by returning a tuple in the form (count,element). The function itself is equivalent to:
+```
+def enumerate(sequence, start=0):
+    n = start
+    for elem in sequence:
+        yield n, elem
+        n += 1
+```
+### all() and any()
+- all() and any() are built-in functions in Python that allow us to conveniently check for boolean matching in an iterable. - all() will return True if all elements in an iterable are True. It is the same as this function code:
+```
+def all(iterable):
+    for element in iterable:
+        if not element:
+            return False
+    return True
+```
+- any() will return True if any of the elements in the iterable are True. It is equivalent to the following function code:
+```
+def any(iterable):
+    for element in iterable:
+        if element:
+            return True
+    return False
+```
+### complex()
+- complex() returns a complex number with the value real + imag*1j or converts a string or number to a complex number.
+- If the first parameter is a string, it will be interpreted as a complex number and the function must be called without a second parameter. The second parameter can never be a string. Each argument may be any numeric type (including complex). If imag is omitted, it defaults to zero and the constructor serves as a numeric conversion like int and float. If both arguments are omitted, returns 0j.
+- If you are doing math or engineering that requires complex numbers (such as dynamics, control systems, or impedance of a circuit) this is a useful tool to have in Python.
+```
+  # Create 2+3j
+  complex(2,3)
+```
