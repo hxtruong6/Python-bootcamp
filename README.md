@@ -98,3 +98,5 @@ def any(iterable):
   # Create 2+3j
   complex(2,3)
 ```
+## Decorator
+- Use symbol '@' to excute the function.
