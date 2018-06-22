@@ -1,6 +1,8 @@
 # Learn Python Course
 #### Note some interesting things
 -- Self-taught
+## Jupyter
+- Start type: 'jupyter notebook'
 ## Python Object and Data Structure Basics
 - Power in number: ** . Ex: 2**4 = 2^4 = 16
 - Negative index in string. Ex: str= 'Truong' -> str[-1] = 'g' mean this last character of string
@@ -99,4 +101,12 @@ def any(iterable):
   complex(2,3)
 ```
 ## Decorator
-- Use symbol '@' to excute the function.
+- Use symbol '@' to execute the function.
+## Generator
+- Advantage: the generator compute one value and waits until the function are called next
+- Use keyword: 'yeild' to return a value which was computed when user call
+- 'next(...)' to get next value in yeild
+- 'inter(...)' to get next value in normal variable
+- Use generator when only get the needed value. Don't need to run whole of function
+- Problem: Explain a use case for a generator using a yield statement where you would not want to use a normal function with a return statement.
+    * If the output has the potential of taking up a large amount of memory and you only intend to iterate through it, you would want to use a generator. (Multiple answers are acceptable here!)
