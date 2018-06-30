@@ -110,3 +110,86 @@ def any(iterable):
 - Use generator when only get the needed value. Don't need to run whole of function
 - Problem: Explain a use case for a generator using a yield statement where you would not want to use a normal function with a return statement.
     * If the output has the potential of taking up a large amount of memory and you only intend to iterate through it, you would want to use a generator. (Multiple answers are acceptable here!)
+## Advance python modules
+### Counter
+- Use to count the dup licate element in a list
+- Useful in process natural language 
+- Code:
+```
+    from collections import counter
+    _list = [1,2,4,3,5,2,5,2,5,7,3]
+    Counter(_list)
+```
+- Common methods:
+    * sum(c.values())
+    * c.clear()
+    * list(c)   // is considered as set
+    * c.items()
+    * ...
+### Default dict
+- Code:
+```
+    from collections import defaultdict
+    d = {}
+    d['one] # -> error
+    d = defaultdict(object) 
+```
+- Use it to never raise a key error -> return a default value
+### Ordered dict
+- Code:
+```
+    d = {}
+    d['a'] = 1
+    d['b'] = 2
+    d['c'] = 3
+    # a normal dictionary
+    from collections import OrderedDict
+    d1 = OrderedDict()
+    d1['b'] = 2
+    d1['a'] = 1
+    d1['c'] = 3
+    # an ordred dict -> it will not change the position in dict
+```
+- Keeping position of elements in dict as the initiate dict. It's not change dict follow anlpha sort
+### Name Tupe
+- Show informations for a tuple (it's too hard to remember when coding)
+- Structure: object = namedtuple('name','variable1 variable2 variable3')
+- Code:
+```
+    from collections import namedtuple
+
+    Dog = namedtuple('Dog', 'age breed name')
+    sam = Dog(age = 12, breed = 'Lab', name= 'Sammy' )
+    sam
+    sam.age #age is subclass of tuple(Dog)
+
+```
+### Datetime
+- Time: datetime.time
+    * datetime.time(minutes,seconds,microseconds)
+    * datetime.time.min 
+    * datetime.time.max
+    * datetime.time.resolution
+- Date: datetime.date.resolution
+### Python debugger
+```
+    import pdb
+    pdb.set_trace()
+```
+### Regular Expressions
+- [a-z]+ : get character a->z and add any another character
+### String IO
+### Number
+- bin
+- hex
+- pow(a,b) = a**b
+- pow(a,b,c) = a**b % c
+- abs
+- round(a,b): round b digits after comma
+### String
+- str.find('a'): position of str
+- str.center(20, 'z'): put str at center then add z to length of str is 20
+- print("abc/tde) = "abc/tde".expandtabs()
+- str.isalnum() : check string is alphal numeric
+- str.isalpha() : check string is alphabet
+- str.partition('a'): just split at begining of str
