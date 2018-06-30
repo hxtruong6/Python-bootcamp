@@ -1,0 +1,3 @@
+Click on spotlight, type terminal to open a terminal window.
+Enter the startup folder by typing cd /some_folder_name .
+Type jupyter notebook to launch the Jupyter Notebook App The notebook interface will appear in a new browser window or tab
