@@ -3,17 +3,17 @@
 a list contains a number divide divisor
 if not add divisor to list
 """
- 
-
-for item in items:
-    if item % divisor == 0:
-        found = item
-        break
-else: # no break
+def ensure_has_divisible(items, divisor):
+    for item in items:
+        if item % divisor == 0:
+           return item
+   
     items.append(divisor)
-    found = divisor
+    return divisor
 
 items = [2,25,9]
-divisor = 12
+divisor = 12 
+
+dividend = ensure_has_divisible(items, divisor)
 
 print("{items} contains {found} which is a multiple of {divisor}".format(**locals()))

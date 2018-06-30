@@ -4,3 +4,4 @@
 - while...else
 - for...else
 - => refactor. Extract mothod
+- try..else
