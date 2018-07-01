@@ -23,4 +23,8 @@
         res = execute_func()
 
 ```
-- Dispatching_on_Type
+- Dispatching_on_Type 
+### Byte-oriented-Programming
+### Object-internals-and-Customs-attributes
+- __dict__ in class of Python is as a dictionary contain all attribute which are defined by programer
+- __dir__ use to show all attribute of class
