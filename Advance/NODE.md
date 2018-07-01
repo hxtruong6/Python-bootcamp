@@ -34,5 +34,10 @@
     * __setattr__(): raise an error not allow set value
 - Pitfalls __getattr__
 - Overriding __delattr__()
+- Use Vars() to Access __dict__
+- A dict in python has size 288 bytes
+- __slots__ = ['var1', 'var2', 'var3'] : allocate fix memory. Not allow add more variable
+
+
 
 
