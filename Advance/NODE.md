@@ -28,3 +28,11 @@
 ### Object-internals-and-Customs-attributes
 - __dict__ in class of Python is as a dictionary contain all attribute which are defined by programer
 - __dir__ use to show all attribute of class
+- Overriding
+    * __getarrr__(): invoked AFTER  requested attribute/property not found by normal lookup
+    * __getattrubute__(): involed INSTEAD OF normal lookup
+    * __setattr__(): raise an error not allow set value
+- Pitfalls __getattr__
+- Overriding __delattr__()
+
+
