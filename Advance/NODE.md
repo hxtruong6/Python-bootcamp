@@ -37,7 +37,19 @@
 - Use Vars() to Access __dict__
 - A dict in python has size 288 bytes
 - __slots__ = ['var1', 'var2', 'var3'] : allocate fix memory. Not allow add more variable
+### Descriptors
+```
+    property(fget= None, fset= None, fdel= None, doc= None)-> property attribute
+    class C(object):
+        def getx(self): return self._x
+        def setx(self): self._x = value
+        def delx(self: del self._x
+        x = property(getx, setx, delx, "I'm the 'x' property.")
+```
+- Implementing a descriptor
+- Calling descriptor on Classes
 
+    
 
 
 
