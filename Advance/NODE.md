@@ -48,6 +48,10 @@
 ```
 - Implementing a descriptor
 - Calling descriptor on Classes
+### Creation
+- Inherited __new__() allocated the object which is passed to __init__() as self
+- Customising allocation
+    * interning: Only use for immutable value type
 
     
 
