@@ -1,0 +1,201 @@
+CustomerID,FirstName,LastName,Age,Country,PurchaseAmount,ProductCategory
+1,Carla,Phillips,57,Saint Barthelemy,301.82,Clothing
+2,Jeffrey,Gray,21,Montserrat,13.83,Clothing
+3,Nancy,Robinson,65,Hong Kong,102.41,Clothing
+4,Christopher,Jones,37,Hong Kong,228.44,Books
+5,Andrea,Erickson,34,Tanzania,359.78,Home & Kitchen
+6,Michael,Henry,51,Ecuador,258.34,Electronics
+7,Christine,Nicholson,35,Kazakhstan,85.95,Books
+8,Michael,Brown,65,Sri Lanka,263.67,Electronics
+9,Donald,Oliver,61,Turkmenistan,158.32,Home & Kitchen
+10,Kevin,Gay,47,Austria,228.65,Electronics
+11,Nicole,Sosa,36,Guyana,52.67,Clothing
+12,Bernard,Ibarra,45,Monaco,217.24,Books
+13,Mike,Lewis,58,Liechtenstein,182.01,Clothing
+14,Elizabeth,Williams,35,Djibouti,366.45,Home & Kitchen
+15,Jeremiah,Figueroa,20,New Zealand,244.87,Electronics
+16,Donald,Spencer,35,Iceland,162.34,Electronics
+17,Robin,Berry,62,Guyana,327.61,Books
+18,Robert,Moody,22,Christmas Island,163.05,Home & Kitchen
+19,Susan,Herrera,61,Cyprus,105.52,Home & Kitchen
+20,James,Boyd,35,Sweden,46.66,Books
+21,John,Harris,65,Kuwait,250.85,Books
+22,Steven,Lamb,48,Bermuda,155.54,Home & Kitchen
+23,Benjamin,Sparks,20,Maldives,304.12,Electronics
+24,Anthony,Williams,18,Cyprus,159.73,Electronics
+25,David,Clark,20,Senegal,59.26,Home & Kitchen
+26,Tyler,Lawrence,45,Sweden,79.04,Electronics
+27,Ashley,Hunt,63,Kiribati,310.27,Home & Kitchen
+28,Carol,Hudson,22,Bouvet Island (Bouvetoya),314.26,Home & Kitchen
+29,Courtney,Morales,59,Libyan Arab Jamahiriya,230.08,Clothing
+30,Collin,Anderson,65,Russian Federation,238.54,Home & Kitchen
+31,Neil,Robinson,59,Grenada,366.66,Home & Kitchen
+32,Debra,Carlson,62,Timor-Leste,122.09,Clothing
+33,Darren,Alvarez,24,United States of America,307.08,Home & Kitchen
+34,Ethan,Larson,56,Fiji,112.89,Clothing
+35,Larry,Nunez,59,Oman,400.98,Home & Kitchen
+36,Kristina,Cannon,22,Spain,141.12,Home & Kitchen
+37,Samantha,Stein,18,New Caledonia,322.04,Home & Kitchen
+38,Scott,Rogers,37,Korea,333.57,Electronics
+39,Paul,Case,45,Liberia,33.38,Home & Kitchen
+40,Collin,Davis,48,Oman,93.65,Home & Kitchen
+41,Reginald,Guerrero,46,Cyprus,58.98,Electronics
+42,Linda,Lopez,51,Antigua and Barbuda,335.17,Books
+43,Karina,Green,26,United States Virgin Islands,17.07,Electronics
+44,Bonnie,Adams,58,Ethiopia,105.88,Books
+45,Patrick,Flynn,37,Aruba,127.56,Electronics
+46,Jeffrey,Roberts,35,Holy See (Vatican City State),424.78,Books
+47,Melvin,Henson,20,Sweden,168.74,Clothing
+48,Sandra,Johnston,37,Cook Islands,269.37,Books
+49,Katherine,Cowan,50,Mali,187.15,Books
+50,Larry,Morgan,48,Kyrgyz Republic,332.97,Home & Kitchen
+51,Kimberly,Moore,34,Hong Kong,321.04,Electronics
+52,David,Hansen,34,Saint Helena,425.81,Electronics
+53,Patricia,Long,65,Greenland,280.78,Home & Kitchen
+54,Michelle,Adams,39,Angola,220.79,Books
+55,Pamela,Mooney,60,Samoa,241.58,Electronics
+56,Rodney,Wilkins,57,Norway,202.09,Books
+57,Vanessa,Harrison,32,Zambia,66.9,Clothing
+58,Michael,Williams,19,Croatia,234.46,Electronics
+59,Brittney,Tate,59,Belize,463.24,Clothing
+60,Christine,Blair,62,Philippines,237.34,Clothing
+61,Timothy,Cruz,64,Tanzania,36.67,Clothing
+62,Melissa,Montgomery,44,Turkey,499.53,Books
+63,Jonathan,Jones,45,Samoa,469.29,Electronics
+64,Jennifer,Chandler,39,Sao Tome and Principe,52.49,Books
+65,Bryan,Robinson,28,Central African Republic,250.85,Electronics
+66,Jacqueline,Jones,28,Guernsey,482.13,Clothing
+67,Thomas,Bentley,32,Turkey,310.99,Clothing
+68,Scott,Sandoval,23,Puerto Rico,385.91,Books
+69,Jennifer,Torres,18,Guatemala,414.73,Clothing
+70,Bradley,Nguyen,20,Turks and Caicos Islands,463.11,Clothing
+71,Spencer,Garcia,44,Cyprus,343.82,Clothing
+72,Nathan,Kennedy,55,Honduras,68.14,Clothing
+73,Elizabeth,Alvarez,31,Malaysia,14.29,Books
+74,Pamela,Wilkinson,52,Bahamas,488.9,Home & Kitchen
+75,Melissa,Shaw,53,Solomon Islands,280.14,Books
+76,Kimberly,Porter,60,Iran,60.4,Clothing
+77,Melissa,Holmes,47,Saudi Arabia,457.55,Clothing
+78,Ryan,Mayer,21,Belarus,254.28,Books
+79,David,Smith,49,Vietnam,232.62,Clothing
+80,Jack,Mccoy,56,Serbia,264.03,Books
+81,Timothy,Stone,23,South Georgia and the South Sandwich Islands,423.17,Home & Kitchen
+82,Sandra,King,20,Yemen,230.95,Electronics
+83,Adriana,Li,18,Comoros,165.26,Electronics
+84,Allison,Palmer,30,Central African Republic,277.47,Electronics
+85,Cynthia,Cox,32,Ghana,246.0,Books
+86,Michael,Petty,25,Slovakia (Slovak Republic),451.11,Books
+87,Jeremiah,Martin,20,Austria,411.71,Electronics
+88,Johnny,Lloyd,41,Saint Helena,281.73,Home & Kitchen
+89,Samantha,Walker,34,Kazakhstan,461.49,Electronics
+90,Logan,Smith,31,Indonesia,192.46,Books
+91,Brittany,Arnold,39,Spain,437.34,Home & Kitchen
+92,Tracey,Odonnell,36,Cayman Islands,373.96,Clothing
+93,Thomas,Jenkins,53,Venezuela,343.12,Home & Kitchen
+94,Travis,Robertson,25,Congo,158.31,Books
+95,Meghan,Brown,41,Panama,182.98,Books
+96,Michael,Johnson,40,Central African Republic,196.29,Home & Kitchen
+97,Amy,Jackson,62,Cayman Islands,457.06,Clothing
+98,Marcus,Casey,18,Spain,101.43,Electronics
+99,Francisco,Allen,60,Sudan,225.36,Clothing
+100,Nichole,Aguilar,31,Tokelau,338.45,Clothing
+101,Jennifer,Brown,21,Isle of Man,129.5,Clothing
+102,Jenna,Sweeney,27,Iceland,286.82,Books
+103,Isabella,Wood,20,Lesotho,211.98,Home & Kitchen
+104,Jason,Williams,44,Kazakhstan,368.85,Clothing
+105,Laura,Johnston,18,Morocco,463.32,Electronics
+106,Penny,Holder,43,Peru,310.24,Home & Kitchen
+107,Catherine,Wilson,38,Italy,230.63,Home & Kitchen
+108,Andrew,Bennett,24,Bouvet Island (Bouvetoya),364.01,Home & Kitchen
+109,Mario,Ochoa,20,Lithuania,141.7,Books
+110,Christopher,Oneal,45,Nigeria,226.18,Clothing
+111,Hannah,Chavez,27,South Georgia and the South Sandwich Islands,438.86,Clothing
+112,Robert,Barron,43,Colombia,157.64,Books
+113,Roger,Blackwell,64,Nepal,81.46,Clothing
+114,Claudia,Jones,38,Brunei Darussalam,83.29,Books
+115,Melissa,Hayes,49,Sweden,27.79,Home & Kitchen
+116,Shannon,Gomez,53,Finland,88.16,Electronics
+117,Adam,Martinez,48,Fiji,362.93,Clothing
+118,Victoria,Watson,19,Norfolk Island,498.13,Books
+119,Brandon,Todd,36,Malaysia,399.81,Electronics
+120,Joshua,George,56,Denmark,434.05,Home & Kitchen
+121,Richard,Lee,46,Guyana,172.46,Electronics
+122,Stephanie,Lyons,22,Saint Martin,73.26,Books
+123,Philip,Mckee,30,New Caledonia,349.02,Books
+124,Maria,Meadows,49,Mali,343.24,Electronics
+125,Thomas,Long,64,Cuba,183.93,Books
+126,Megan,Allen,60,Georgia,192.89,Home & Kitchen
+127,Thomas,Leach,42,Dominican Republic,268.73,Books
+128,Natalie,Carroll,24,Mali,393.0,Electronics
+129,Courtney,Singh,45,Marshall Islands,464.51,Home & Kitchen
+130,Daniel,Marshall,64,Morocco,423.26,Home & Kitchen
+131,Mary,Gonzalez,60,Ethiopia,487.65,Electronics
+132,Patrick,Huber,20,United Kingdom,250.37,Books
+133,Darryl,Santos,27,Pitcairn Islands,472.75,Clothing
+134,Ana,Wright,48,Guatemala,207.1,Clothing
+135,James,Johnson,33,Czech Republic,11.05,Home & Kitchen
+136,Tiffany,Gallegos,37,Sweden,319.29,Clothing
+137,Shelia,Hobbs,64,Libyan Arab Jamahiriya,249.14,Electronics
+138,Amanda,Higgins,18,Tokelau,244.43,Books
+139,Annette,Howard,24,French Guiana,317.19,Books
+140,Joel,Erickson,48,Georgia,133.75,Home & Kitchen
+141,Jennifer,Gomez,59,Moldova,274.23,Clothing
+142,Karen,Flowers,28,Bhutan,395.14,Clothing
+143,Michelle,Vargas,49,Liechtenstein,99.39,Books
+144,Carl,Schmidt,52,Congo,202.58,Electronics
+145,Linda,Mays,27,Peru,318.64,Electronics
+146,David,Stafford,59,Timor-Leste,38.84,Home & Kitchen
+147,Tammy,Gonzalez,45,Lithuania,294.18,Electronics
+148,Jeffrey,Taylor,60,Monaco,465.96,Home & Kitchen
+149,Barry,Kelly,50,Bangladesh,276.59,Home & Kitchen
+150,Ashley,Garcia,35,Christmas Island,186.06,Clothing
+151,Steven,Irwin,47,Congo,325.63,Clothing
+152,Craig,White,55,Suriname,275.19,Books
+153,Brittany,Preston,56,Wallis and Futuna,498.72,Books
+154,Benjamin,Pearson,65,Lebanon,82.19,Books
+155,Jacqueline,Hernandez,33,Puerto Rico,462.24,Electronics
+156,Daniel,Yang,43,Holy See (Vatican City State),285.7,Home & Kitchen
+157,David,Wells,53,Gambia,17.26,Books
+158,Ana,Harmon,50,Cyprus,77.81,Books
+159,Michael,Roth,51,Madagascar,441.27,Electronics
+160,Jamie,Nichols,58,New Zealand,85.87,Home & Kitchen
+161,Antonio,Walker,56,Rwanda,106.97,Books
+162,Bruce,Santana,30,Micronesia,485.23,Books
+163,Joel,Norman,31,Solomon Islands,222.76,Electronics
+164,Daniel,Kennedy,42,Kiribati,43.02,Home & Kitchen
+165,Larry,Bryant,48,Dominican Republic,241.97,Electronics
+166,Raymond,Houston,42,Tuvalu,286.5,Clothing
+167,Catherine,Little,25,Germany,437.34,Electronics
+168,Anthony,Perez,62,Canada,76.77,Clothing
+169,Nicole,Benjamin,40,Guadeloupe,198.92,Home & Kitchen
+170,Norman,Clark,54,Zambia,240.78,Books
+171,Steven,Roberts,20,Australia,211.56,Electronics
+172,Lisa,Martin,19,Qatar,99.39,Electronics
+173,Cynthia,Fernandez,40,Malaysia,125.06,Home & Kitchen
+174,Bradley,Wright,27,Bermuda,285.37,Home & Kitchen
+175,Emma,Lindsey,60,New Caledonia,161.18,Electronics
+176,Lucas,Graham,64,Antigua and Barbuda,429.99,Electronics
+177,Jasmine,Lindsey,32,Saint Barthelemy,357.19,Clothing
+178,Joshua,Coleman,60,Congo,208.24,Home & Kitchen
+179,Chad,Johnson,51,Antigua and Barbuda,238.0,Books
+180,Ann,Baker,41,Sudan,454.77,Books
+181,Lori,Newton,22,Cape Verde,465.55,Electronics
+182,Francisco,Robertson,31,Gambia,386.13,Electronics
+183,Zachary,Steele,26,Niger,139.98,Home & Kitchen
+184,Veronica,Patrick,64,Congo,349.14,Clothing
+185,Joseph,Townsend,48,Mayotte,416.75,Home & Kitchen
+186,Steven,Tucker,58,Hungary,340.26,Books
+187,Timothy,Nguyen,33,Swaziland,250.12,Books
+188,Jennifer,Smith,53,Venezuela,381.36,Home & Kitchen
+189,Mandy,Madden,19,Chad,244.4,Clothing
+190,Kyle,Rosales,42,Yemen,125.58,Books
+191,Joshua,Armstrong,23,Tonga,461.87,Home & Kitchen
+192,Christina,Allen,18,Suriname,462.12,Electronics
+193,Caitlin,Morris,54,Egypt,472.78,Electronics
+194,Chelsea,Mcfarland,41,Puerto Rico,458.37,Home & Kitchen
+195,Jennifer,Ramirez,55,Faroe Islands,446.22,Books
+196,Katherine,Forbes,23,Ecuador,12.63,Electronics
+197,Bryan,Chen,18,British Indian Ocean Territory (Chagos Archipelago),340.58,Clothing
+198,Justin,Williams,33,El Salvador,345.7,Electronics
+199,Joseph,Rich,40,Tanzania,105.69,Electronics
+200,Gregory,Johnson,22,Burundi,251.35,Electronics
