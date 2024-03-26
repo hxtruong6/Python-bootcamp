@@ -1,195 +1,220 @@
 # Learn Python Course
-#### Note some interesting things
--- Self-taught
-## Jupyter
-- Start type: 'jupyter notebook'
+
+Welcome to the "Learn Python Course" — your comprehensive guide to mastering the Python programming language. This course covers a wide range of essential topics, from the very basics of Python syntax and data structures to advanced concepts like object-oriented programming (OOP), modules, packages, and unit testing. Whether you're a complete beginner or looking to expand your knowledge, this course is designed to provide clear explanations, practical examples, and hands-on exercises.
+
+## Setting Up Your Environment
+
+### Jupyter Notebooks
+
+Jupyter Notebooks offer an interactive coding environment, ideal for learning and experimenting with Python code. To start, run the command in your terminal:
+
+```bash
+jupyter notebook
+```
+
+This will launch the Jupyter Notebook interface in your browser, where you can write and execute Python code in an interactive manner.
+
 ## Python Object and Data Structure Basics
-- Power in number: ** . Ex: 2**4 = 2^4 = 16
-- Negative index in string. Ex: str= 'Truong' -> str[-1] = 'g' mean this last character of string
-- Get character in string: str[START:END:STEP]. Note: not including character[END]
-- Function Split:
-  * str.split() -> split each word in a string as array
-  * str.split('i') -> split until meet character 'i'. Ex: str = "Hello! This is an bird." -> 'Hello! Th', 's ', 's an b', 'rd.'
-- Format in print: use '{}'.format  to print string/result follow defined format
-- Set just get the unique element. Ex: myset = set(); myset.add(element)
-- IO file
-  * open(), read()
-  * when read() file, the cursor will be moved the end of file. Use seek(int) to set again cursor
-  * read() evert line: readlines() -> list string follow each line in file
-  * with open('myfile.txt') as my_new_file:
-      contents = my_new_file.read()
-      -> file open and close automatically, the contents in file will independence with file
-## Statements
-- Key word 'enumerate' use show (index, result) in loop
-- Key word 'Zip' use zip lists together follow index
-## Function
-- * args : list of parameter when pass to Function
-- ** kwargs:  return a dictionary  
-- map: use match between list argument with parameter of function. Ex: map(square, my_nums) -- square is function, my_nums is list number
-- filter: use filter element follow condition. Ex: filter(condition,list)
-- lamda parameter:return. Ex: lamda num:num%2==0
-- Scope:
-  * use 'global' in def to get value of global variable (re-assignment)
-  * code clearly: x = function(x) when re-assignment variable; def function(x): #code -> return x
-## OOP
-- Init function: def __init__(self, parameterm,...)
-- Inherit: class Dog(Animal): -> Dog Inherit from Animal
-  * Call again class parent: def __init__(self): Animal.__init__(self)
-  * If call a function which is not define in children class, it will inherit form parent class. In contract, children will use own function if it has same name.
-  * Polymorphism: A class have many parents class.
-- Special method in class:
-  * __str__(self): call str(name class) to describe what this class is.
-  * __len__(self): return length of class (anything you want)
-  * __del__(self) -- del class: use to delete from memory of computer
+
+### Power Operation
+
+- **Syntax**: `a ** b`
+- **Example**: `2**4` yields 16, as it represents \(2^4\).
+
+### Negative Indexing in Strings
+
+Access the last character or elements from the end of a string or list using negative indexes.
+
+- **Example**: Given `str = 'Python'`, `str[-1]` returns 'n'.
+
+### Slicing Strings
+
+Retrieve parts of strings using slicing with the syntax `str[start:end:step]`, excluding the character at the position `end`.
+
+- **Example**: `str = "Hello, Python!"`; `str[0:5:1]` yields 'Hello'.
+
+### String Split Function
+
+Split strings into lists using `.split()`.
+
+- **Example**:
+  - `str = "Learn Python Programming"`
+  - `str.split()` results in `['Learn', 'Python', 'Programming']`.
+  - `str.split('o')` results in `['Learn Pyth', 'n Pr', 'gramming']`.
+
+### Formatting Strings
+
+Use `.format()` for string interpolation.
+
+- **Example**:
+
+```python
+name = "Python"
+message = "Hello, {}!".format(name)
+print(message)  # Output: Hello, Python!
+```
+
+### Unique Elements with Sets
+
+Sets store unique elements, automatically removing duplicates.
+
+- **Example**:
+
+```python
+myset = set([1, 2, 2, 3])
+print(myset)  # Output: {1, 2, 3}
+```
+
+### File I/O
+
+Perform file operations easily with context managers.
+
+- **Example**:
+
+```python
+with open('example.txt', 'r') as file:
+    contents = file.read()
+print(contents)
+```
+
+## Control Flow Statements
+
+### Enumerate
+
+Use `enumerate` for loops to get both the index and the value of each item.
+
+- **Example**:
+
+```python
+for index, value in enumerate(['a', 'b', 'c']):
+    print(f"{index}: {value}")
+```
+
+### Zip
+
+Combine multiple lists into a single list of tuples using `zip`.
+
+- **Example**:
+
+```python
+names = ['John', 'Jane']
+ages = [30, 25]
+for name, age in zip(names, ages):
+    print(f"{name} is {age} years old")
+```
+
+## Functions
+
+### *args and **kwargs
+
+Use `*args` and `**kwargs` to accept an arbitrary number of positional or keyword arguments.
+
+- **Example**:
+
+```python
+def greet(*args):
+    for name in args:
+        print("Hello,", name)
+
+greet('John', 'Jane', 'Doe')
+```
+
+### Map and Filter Functions
+
+`map` applies a function to all the items in an input list, while `filter` creates a list of elements for which a function returns true.
+
+- **Example**:
+
+```python
+numbers = [1, 2, 3, 4]
+squared = list(map(lambda x: x**2, numbers))
+print(squared)  # Output: [1, 4, 9, 16]
+
+even = list(filter(lambda x: x % 2 == 0, numbers))
+print(even)  # Output: [2, 4]
+```
+
+## Object-Oriented Programming (OOP)
+
+### Initialization and Inheritance
+
+Define classes and use inheritance for code reuse and to implement polymorphism.
+
+- **Example**:
+
+```python
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+my_dog = Dog("Buddy")
+print(my_dog.name)  # Output: Buddy
+print(my_dog.speak())  # Output: Woof!
+```
+
+### Special Methods
+
+Implement special methods to add Python-specific functionality to your classes, like string representation or length.
+
+- **Example**:
+
+```python
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    def __str__(self):
+        return f"{self.title} by {self.author}"
+
+    def __len__(self):
+        return 100  # Assuming each book has 100 pages
+
+my_book = Book("Python Essentials", "Jane Doe")
+print(my_book)  # Output: Python Essentials by Jane Doe
+print(len(my_book))  # Output: 100
+```
+
 ## Modules and Packages
-- if __name__ == "__main__": check if this file .py is run directly
-## Unit Test
-## Map(), reduce(), filter()
+
+Encapsulate code within modules and packages for reuse and better organization. Use `if __name__ == "__main__":` to make your Python files executable as scripts as well as importable modules.
+
+## Unit Testing
+
+Write tests for your code using Python's built-in `unittest` framework to ensure your code works as expected.
+
+### Map(), Reduce(), and Filter() Functions
+
+Explore these functional programming tools for operating on lists and iterables in a concise and readable manner.
+
 ### Reduce()
-- from functools import reduce
+
+`reduce` applies a rolling computation to sequential pairs of values in a list.
+
+- **Example**:
+
+```python
+from functools import reduce
+numbers = [1, 2, 3, 4]
+result = reduce(lambda x, y: x+y, numbers)
+print(result)  # Output: 10
+```
+
 ### Zip()
-- zip() makes an iterator that aggregates elements from each of the iterables.
-- Returns an iterator of tuples, where the i-th tuple contains the i-th element from each of the argument sequences or iterables. The iterator stops when the shortest input iterable is exhausted. With a single iterable argument, it returns an iterator of 1-tuples. With no arguments, it returns an empty iterator.
-- zip() is equivalent to:
-```
-def zip(*iterables):
-    # zip('ABCD', 'xy') --> Ax By
-    sentinel = object()
-    iterators = [iter(it) for it in iterables]
-    while iterators:
-        result = []
-        for it in iterators:
-            elem = next(it, sentinel)
-            if elem is sentinel:
-                return
-            result.append(elem)
-        yield tuple(result)
-```
-- zip() should only be used with unequal length inputs when you don’t care about trailing, unmatched values from the longer iterables.
-### Enumerate()
-- In this lecture we will learn about an extremely useful built-in function: enumerate(). Enumerate allows you to keep a count as you iterate through an object. It does this by returning a tuple in the form (count,element). The function itself is equivalent to:
-```
-def enumerate(sequence, start=0):
-    n = start
-    for elem in sequence:
-        yield n, elem
-        n += 1
-```
-### all() and any()
-- all() and any() are built-in functions in Python that allow us to conveniently check for boolean matching in an iterable. - all() will return True if all elements in an iterable are True. It is the same as this function code:
-```
-def all(iterable):
-    for element in iterable:
-        if not element:
-            return False
-    return True
-```
-- any() will return True if any of the elements in the iterable are True. It is equivalent to the following function code:
-```
-def any(iterable):
-    for element in iterable:
-        if element:
-            return True
-    return False
-```
-### complex()
-- complex() returns a complex number with the value real + imag*1j or converts a string or number to a complex number.
-- If the first parameter is a string, it will be interpreted as a complex number and the function must be called without a second parameter. The second parameter can never be a string. Each argument may be any numeric type (including complex). If imag is omitted, it defaults to zero and the constructor serves as a numeric conversion like int and float. If both arguments are omitted, returns 0j.
-- If you are doing math or engineering that requires complex numbers (such as dynamics, control systems, or impedance of a circuit) this is a useful tool to have in Python.
-```
-  # Create 2+3j
-  complex(2,3)
-```
-## Decorator
-- Use symbol '@' to execute the function.
-## Generator
-- Advantage: the generator compute one value and waits until the function are called next
-- Use keyword: 'yeild' to return a value which was computed when user call
-- 'next(...)' to get next value in yeild
-- 'inter(...)' to get next value in normal variable
-- Use generator when only get the needed value. Don't need to run whole of function
-- Problem: Explain a use case for a generator using a yield statement where you would not want to use a normal function with a return statement.
-    * If the output has the potential of taking up a large amount of memory and you only intend to iterate through it, you would want to use a generator. (Multiple answers are acceptable here!)
-## Advance python modules
-### Counter
-- Use to count the dup licate element in a list
-- Useful in process natural language 
-- Code:
-```
-    from collections import counter
-    _list = [1,2,4,3,5,2,5,2,5,7,3]
-    Counter(_list)
-```
-- Common methods:
-    * sum(c.values())
-    * c.clear()
-    * list(c)   // is considered as set
-    * c.items()
-    * ...
-### Default dict
-- Code:
-```
-    from collections import defaultdict
-    d = {}
-    d['one] # -> error
-    d = defaultdict(object) 
-```
-- Use it to never raise a key error -> return a default value
-### Ordered dict
-- Code:
-```
-    d = {}
-    d['a'] = 1
-    d['b'] = 2
-    d['c'] = 3
-    # a normal dictionary
-    from collections import OrderedDict
-    d1 = OrderedDict()
-    d1['b'] = 2
-    d1['a'] = 1
-    d1['c'] = 3
-    # an ordred dict -> it will not change the position in dict
-```
-- Keeping position of elements in dict as the initiate dict. It's not change dict follow anlpha sort
-### Name Tupe
-- Show informations for a tuple (it's too hard to remember when coding)
-- Structure: object = namedtuple('name','variable1 variable2 variable3')
-- Code:
-```
-    from collections import namedtuple
 
-    Dog = namedtuple('Dog', 'age breed name')
-    sam = Dog(age = 12, breed = 'Lab', name= 'Sammy' )
-    sam
-    sam.age #age is subclass of tuple(Dog)
+`zip` combines elements from multiple lists into tuples, making it useful for parallel iteration.
 
+- **Example**:
+
+```python
+names = ['John', 'Jane']
+ages = [30, 25]
+for name, age in zip(names, ages):
+    print(f"{name} is {age} years old")
 ```
-### Datetime
-- Time: datetime.time
-    * datetime.time(minutes,seconds,microseconds)
-    * datetime.time.min 
-    * datetime.time.max
-    * datetime.time.resolution
-- Date: datetime.date.resolution
-### Python debugger
-```
-    import pdb
-    pdb.set_trace()
-```
-### Regular Expressions
-- [a-z]+ : get character a->z and add any another character
-### String IO
-### Number
-- bin
-- hex
-- pow(a,b) = a**b
-- pow(a,b,c) = a**b % c
-- abs
-- round(a,b): round b digits after comma
-### String
-- str.find('a'): position of str
-- str.center(20, 'z'): put str at center then add z to length of str is 20
-- print("abc/tde) = "abc/tde".expandtabs()
-- str.isalnum() : check string is alphal numeric
-- str.isalpha() : check string is alphabet
-- str.partition('a'): just split at begining of str
+
+This guide aims to be both a thorough introduction for beginners and a handy reference for more experienced programmers. Enjoy your journey through Python!
